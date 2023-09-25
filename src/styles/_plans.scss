@@ -37,6 +37,12 @@
 
             img{
                 height: 83px;
+                align-items: center;
+                justify-content: center;
+
+                @media (max-width: 768px) {
+                    height: 70px;
+                }
             }
 
             strong {
