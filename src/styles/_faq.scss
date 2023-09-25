@@ -40,7 +40,7 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: height .5 ease ;
+                transition: height, .5s ease;
 
                 li {
                     margin-top: 24px;
@@ -57,7 +57,7 @@
                 .faq__questions__item__answer{
                     height: auto;
                     padding-bottom: 24px;
-                    transition: height .5 ease;
+                    transition: height, .5s ease;
                 }
             }
         }
